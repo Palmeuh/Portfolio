@@ -4,3 +4,27 @@ Author: Palmeuh
 Version: 1.0
 Text Domain: Portfolio 2021
 */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.frontpage {
+  height: 100vh;
+}
+
+.frontpage-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.frontpage-intro_buttons .btn {
+}
