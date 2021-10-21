@@ -13,11 +13,8 @@
 
 <body <?php body_class();?>>
 
+<?php 
+    get_template_part('template-parts/nav/navmenu');
+?>
 
-<header class="main">
-    <?php
-        wp_nav_menu(array(
-            'theme_location' => 'top-menu',
-        ));
-    ?>
-</header>
+
