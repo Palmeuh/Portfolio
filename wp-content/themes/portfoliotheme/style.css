@@ -34,3 +34,12 @@ html {
     text-align: center;
   }
 }
+
+.frontpage-intro_buttons .btn {
+}
+
+@media (max-width: 767.98px) {
+  #intro_image {
+    max-width: 50%;
+  }
+}
