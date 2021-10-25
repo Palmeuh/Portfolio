@@ -11,7 +11,7 @@ This feature will be added later on.
 ![alt text](https://github.com/Palmeuh/Portfolio/blob/master/wp-images/Mobile.jpg?raw=true)
 
 #### Desktop
-![alt text](https://github.com/Palmeuh/Portfolio/blob/master/wp-images/Mobile.jpg?raw=true)
+![alt text](https://github.com/Palmeuh/Portfolio/blob/master/wp-images/Desktop.jpg?raw=true)
 
 ## Description
 
