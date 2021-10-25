@@ -1,5 +1,10 @@
 <section class="frontpage frontpage-intro">
-    <div class="frontpage-intro_box">  
+    <div class="frontpage-intro_box">
+        <div class="frontpage-intro_box-image">            
+            <?php if( get_field('intro_image') ): ?>
+            <img src="<?php the_field('intro_image'); ?>" class="img-fluid" />
+            <?php endif; ?>
+        </div>  
         
         <h3>
         <?php
