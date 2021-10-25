@@ -10,7 +10,7 @@
             </div>
             
             <div class="col-md-6 my-auto">
-                <h3>
+                <h3 class="headline headline-intro">
                 <?php
                 $input = get_field('headline');
                 if($input) {
@@ -43,7 +43,7 @@
                     else {
                         echo "To go with the input.";
                     }
-                    ?>" class="btn btn-primary">
+                    ?>" class="btn btn-outline-light">
                     <?php
                     $input = get_field('introbtn_text_left');
                     if($input) {
@@ -62,7 +62,7 @@
                     else {
                         echo "To go with the input.";
                     }
-                    ?>" class="btn btn-primary">
+                    ?>" class="btn btn-outline-light">
                     <?php
                     $input = get_field('introbtn_text_right');
                     if($input) {
