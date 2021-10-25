@@ -28,3 +28,9 @@ html {
 
 .frontpage-intro_buttons .btn {
 }
+
+@media (min-width: 767.98px) {
+  .portfolio-box_right {
+    text-align: center;
+  }
+}
