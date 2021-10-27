@@ -43,7 +43,7 @@
                     else {
                         echo "To go with the input.";
                     }
-                    ?>" class="btn btn-outline-light">
+                    ?>" class="btn btn-dark">
                     <?php
                     $input = get_field('introbtn_text_left');
                     if($input) {
@@ -62,7 +62,7 @@
                     else {
                         echo "To go with the input.";
                     }
-                    ?>" class="btn btn-outline-light">
+                    ?>" class="btn btn-dark">
                     <?php
                     $input = get_field('introbtn_text_right');
                     if($input) {

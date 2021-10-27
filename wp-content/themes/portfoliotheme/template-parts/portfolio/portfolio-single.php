@@ -1,27 +1,25 @@
-<section class="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-4 portfolio-box_left">
-                <img class="img-fluid" src="<?php the_post_thumbnail_url() ?>" alt="">
-            </div>
-            <div class="col-sm-12 col-md-8 portfolio-box_right my-auto">
-                
-                    <h3>
-                        <?php the_title() ?>
-                    </h3>                    
-                    <p class="lead">
-                    <?php the_excerpt() ?>
+<div class="container">
+    <header class="content-header">
+    	<div class="mb-3">
+            <h3><?php the_title() ?> </h3>
+            <span class="date"><?php the_date(); ?></span>
+            </br>
 
-                    </p>
-                
-            </div>
-            <div class="col-12 portfolio-box_under">
-                <p>
-                    <?php the_content() ?> 
-                </p>
-            </div>
+            <?php 
+                the_tags('<span class="tag"><i class="fa fa-tag"></i> ', '</span><span class="tag"><i class="fa fa-tag"></i>', '</span>');
+            ?>             
+            </br>
+            
+            <span class="comment"><a href="#comments"><i class='fa fa-comment'></i> <?php comments_number(); ?></a></span>
         </div>
-    </div>
-</section>
+    </header>   
 
+<?php 
+the_content();
+?>
 
+<?php 
+    comments_template();
+?>
+
+</div>
