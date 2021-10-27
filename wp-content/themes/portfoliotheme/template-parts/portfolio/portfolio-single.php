@@ -10,7 +10,8 @@
                         <?php the_title() ?>
                     </h3>                    
                     <p class="lead">
-                        <?php the_excerpt() ?>
+                    <?php the_excerpt() ?>
+
                     </p>
                 
             </div>

@@ -1,6 +1,6 @@
 
-<div class="col">
-    <div class="card h-100 bg-light">
+<div class="col ">
+    <div class="card h-100 w-75 bg-light mx-auto text-center">
       <img src="<?php the_post_thumbnail_url() ?>" class="card-img-top img-fluid" alt="...">
       <div class="card-body bg-dark d-flex flex-column">
         <h5 class="card-title"><?php the_title(); ?></h5>
