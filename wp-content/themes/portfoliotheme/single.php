@@ -1,7 +1,7 @@
 <?php get_header();?>
 
 
-<section class="page">
+<section class="content-page">
     <div class="container">
 
             
